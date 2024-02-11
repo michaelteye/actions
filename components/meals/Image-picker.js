@@ -19,7 +19,7 @@ export default function ImagePicker({ label, name }) {
     if (!file) {
       return;
     }
-
+ 
     const fileReader = new FileReader();
 
     fileReader.onload = () => {
